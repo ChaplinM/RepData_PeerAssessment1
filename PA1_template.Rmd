@@ -70,7 +70,7 @@ max24h = paste(substr(maxZeroPad,1,2),substr(maxZeroPad,3,4),sep="h")
 
 A time-series line chart for the interval step totals is shown below.
 
-```{r fig.height=5, fig.width=10}
+```{r fig.height=5, fig.width=10} 
 plot(actIntervalSteps$steps ~ actIntervalSteps$interval, type="l", 
      xlab="Hours and minutes", ylab="Mean interval steps") 
 ```
